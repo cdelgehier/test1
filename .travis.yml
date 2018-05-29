@@ -1,1 +1,3 @@
-script: ip -o -4 addr list eth0
+script: 
+  - ip -o -4 addr list eth0
+  - set
