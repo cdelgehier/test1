@@ -1,1 +1,1 @@
-script: ip a --brief
+script: ip a 
