@@ -1,5 +1,8 @@
 before_install:
   - export IPVAGRANT=$(ip -o -4 addr list eth0 | awk '{print $4}' | cut -d/ -f1)
+  - x=5
+  - while ! [ $x -gt 0 ]
+    ; do sleep 1; x=$(($x-1)) ; done
 
 script: 
   - echo $IPVAGRANT
