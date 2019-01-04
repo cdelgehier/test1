@@ -9,7 +9,7 @@ pipeline {
           echo toto
           date
           """)
-          echo $VIP_CENTOS7
+          sh" echo $VIP_CENTOS7"
         }
 
       }
