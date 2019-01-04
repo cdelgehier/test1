@@ -10,9 +10,6 @@ pipeline {
           """)
         }
 
-        sh """
-                    cd deployment/sds_centos7
-                    . ${WORKSPACE}/venv/bin/activate """
       }
     }
   }
