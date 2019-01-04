@@ -12,6 +12,7 @@ pipeline {
           sh" echo $VIP_CENTOS7"
         }
 
+        echo 'plop'
       }
     }
   }
