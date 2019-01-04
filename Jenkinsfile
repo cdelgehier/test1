@@ -5,6 +5,7 @@ pipeline {
       steps {
         script {
           VIP_CENTOS7 = sh(returnStdout: true, script: """
+          #!/bin/bash
           echo toto
           date
           """)
